@@ -19,7 +19,6 @@ h3,
 h4,
 h5,
 h6{
-	margin-top:0;
 	font-weight: 700;
 	}    
 h3  {
@@ -152,13 +151,15 @@ header.header{
 	min-height: 89px;
 }
 
+
 header .navbar{
-	padding: 0;
-	background: rgba(255,255,255,1);
-	box-shadow: 0 0 30px rgba(0,0,0,0.1);
-	z-index: 10;
+    padding: 0;
+    background: rgb(40, 184, 210);
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    z-index: 10;
 }
 
+ 
 header .navbar:after{
 	content: '';
 	display: block;
@@ -177,18 +178,23 @@ header .navbar-collapse.collapse{
     justify-content: flex-end;
 }
 
+header .nav-logo{
+	max-width: 80px;
+    height: auto;
+}
+
 .navbar .navbar-nav .nav-item{
 	padding: 30px 6px;
 }
 
 .navbar .navbar-nav .nav-link{
-	padding: 4px 10px;
-	font-size: 14px;
-	color: #ff5722;
-	text-transform: uppercase;
-	border-radius: 4px;
-	letter-spacing: 0.02em;
-	transition: all 0.3s;
+    padding: 4px 10px;
+    font-size: 14px;
+    color: #ff5722;
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+    transition: all 0.3s;
 }
 
 .navbar .navbar-nav .nav-link.active{
@@ -248,6 +254,7 @@ header .navbar-collapse.collapse{
 	color: #ff5722;
 	text-transform: uppercase;
 }
+
 
 /**************************************/
 /*****    Banner Slider area css  *****/
@@ -437,10 +444,16 @@ header .navbar-collapse.collapse{
 	right: 0;
 }
 
-.banner-button-prev:hover,
-.banner-button-next:hover{
-	background: #fff;
-}
+ .banner-button-prev:hover,
+ .banner-button-next:hover{
+     background: #fff;
+ }
+
+/**************************************/
+/*****    Acceuil area css  *****/
+/**************************************/
+
+
 
 /**************************************/
 /*****   Our Activities area css  *****/
