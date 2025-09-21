@@ -154,7 +154,7 @@ header.header{
 
 header .navbar{
     padding: 0;
-    background: rgb(40, 184, 210);
+    background: #F0F8FF;
     box-shadow: 0 0 30px rgba(0,0,0,0.1);
     z-index: 10;
 }
@@ -767,7 +767,7 @@ header .nav-logo{
 
 .faculty{
 	padding: 100px 0;
-	background: #ecf5fe;
+	background: #F0F8FF;
 	position: relative;
 }
 
@@ -874,7 +874,7 @@ header .nav-logo{
 }
 
 .event-single{
-	background: #fff;
+	background: #F0F8FF;
 	padding: 10px;
 	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
 	border-radius: 8px;
